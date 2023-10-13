@@ -8,13 +8,10 @@ h1{
 p{
   text-indent: 11px;
 }
-#content { 
-  background-color: rgb(255, 220, 226);
-  width: 500px;
-  min-height: 500px;
-  border: ridge 1px; black;
-  border-width: 10px;
-}
+ #content{
+  background-color: rgb(255, 211, 233);
+  border: dashed;
+ }
 img{
   width: 245px;
   height: 170px;
@@ -24,8 +21,16 @@ img{
 }
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
 .minor-section {
-    padding: 10px;
     margin-bottom: 10px;
-    border: solid 1px #888;
-    background-color: #DDD8C4;
+    border: solid 1px #f9f5f5;
+    background-color:white;
   }
+  body{
+    background-color: rgb(255, 211, 233);
+  }
+
+  html{
+    border: ridge 1px; black;
+    border-width: 10px;
+ }
+  
