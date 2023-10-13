@@ -1,0 +1,11 @@
+h1{
+    color: #af3535;
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#content { 
+    background-color: bisque;
+    color: black;
+    border-radius: 0cqmax;
+    border-color: white;
+}
