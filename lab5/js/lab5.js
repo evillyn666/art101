@@ -11,12 +11,11 @@ color = "Rusty";
 
 
 // calculate
-Age = 2023 - year;
+age = 2023 - year;
 
 // output
 document.writeln("Make: " + make + "<br>");
-doccument.writeln("Model: " + model + "<br>");
+document.writeln("Model: " + model + "<br>");
 document.writeln("Color: " + color + "<br>");
 document.writeln("Year: " + year + "<br>");
 document.writeln("Age: " + age + " years<br>");
-
