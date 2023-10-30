@@ -13,7 +13,6 @@ function myFunction(param1, param2) {
 }
 
 function main() {
-  console.log("Main function started.");
   // the code that makes everything happen
 }
 
