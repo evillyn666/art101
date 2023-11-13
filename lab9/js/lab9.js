@@ -5,11 +5,11 @@
 
 
 
-// add button to challenge section
+// add button to minor section
 
 $(".minor-section").append("<button id= 'button-minor-section'>Click Me!</button>");
 
-// add a click listener to the results button
+// add a click listener to the minor section button
 $(".minor-section").click(function(){
     alert ("Hello World!");
 
