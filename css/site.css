@@ -32,7 +32,7 @@ h1 {
 .minor-section {
   padding: 10px;
   margin-bottom: 10px;
-  border: dashed 5px #141414;
+  border: solid 1px #141414;
   background-color: #f7dff1;
 }
 img { 
