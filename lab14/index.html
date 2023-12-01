@@ -2,7 +2,7 @@
 <html>
 <head>
 	<!-- This title is used for tabs and bookmarks -->
-	<title>Lab 7 - Functions</title>
+	<title>Lab 14 - Debugging Tools & Strategies</title>
 
 	<!-- Use UTF character set, a good idea with any webpage -->
   	<meta charset="UTF-8" />
@@ -12,20 +12,20 @@
 	<!-- Include a sitewide CSS file for consistent styling across the site -->
 	<link rel="stylesheet" type="text/css" href="../css/site.css">
 	<!-- Lab-specifc CSS file for any special styling of this particular page -->
-	<link rel="stylesheet" type="text/css" href="css/lab7.css">
+	<link rel="stylesheet" type="text/css" href="css/lab14.css">
 	
 	<!-- load jQuery library to make javascript easier (must be above our lab js)-->
-	<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
 	<!-- Link to javascript file - DEFER waits until all elements are rendered -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" DEFER></script>
+	<script src="js/lab14.js" DEFER></script>
 </head>
 <body>
-	<!-- Style this page by changing the CSS in ../css/site.css or css/lab.css -->
 	<main id="content">
 		<section>
-			<h1>₊ ⊹Lab 7 - Functions₊ ⊹</h1>
+			<h1>₊ ⊹Lab 14 - Debugging Tools & Strategies₊ ⊹</h1>
 			<div class="minor-section">
 					<h2>Challenge</h2>
-					<p>The purpose of this lab was to work with your partner, write functions that take user input and manipulate a string.</p>
+					<p>The purpose of this lab was to work with a partner and use your debugging knowledge to fix old assignments.</p>
 			</div>
 
 			<div class="minor-section">
@@ -36,13 +36,16 @@
 			<div class="minor-section">
 					<h2>Results</h2>
 					<p> This is the index.html file I created.</p>
-					<div id="output"></div>
+            
 			</div>
 			<div class="minor-section"> 
-					<h2>Script Output</h2>
-					<script src="js/lab7.js"></script>
-			</div>
-	
+                    <h2> Debugging</h2>
+                    <p> For the most part, my labs' javascript had no significant errors. However, I saw that in a few of my labs, the console showed the message "Failed to load resource: net::ERR_FILE_NOT_FOUND". I noticed that my JavaScript link was appearing twice in my HTML. The link including the lab number was one, and the other which was included in the head said lab.js. It said error since I had not written any javascript in lab.js. However, after I deleted it, my console showed no issues. </p>
+                    <img src="img/Untitled.jpg">
+                    <img src="img/js-error.jpg">
+                    <img src="img/console.jpg">
+
+            </div>
 		<nav id="links">
 			<!-- Put links to other pages (including the homepage) here. -->
 		</nav>

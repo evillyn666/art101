@@ -15,3 +15,4 @@ $("#my-button").click(function(){
     newText = "hello" + name + "!";
     $("#title").html(newText);
 });
+

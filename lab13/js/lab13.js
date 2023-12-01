@@ -32,7 +32,6 @@ function fizzBuzz() {
     // 'output' div
     $("#output").html(oneLongString);
 }
-
 // fizzBuzz function
 fizzBuzz();
 
