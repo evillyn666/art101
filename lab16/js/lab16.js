@@ -10,7 +10,7 @@ const ENDPOINT = "https://xkcd.com/614/info.0.json";
 $("#get-em").click(function(){
     console.log("Click");
   
-    // Construct AJAX object
+    //  AJAX object
     const ajaxParams = {
         url: ENDPOINT,
         type: "GET",
